@@ -3,11 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title>Redirecting to https://learnercraft.github.io/docugrammar/</title>
-        <meta http-equiv="refresh" content="0; URL=https://learnercraft.github.io/docugrammar/">
         <link rel="canonical" href="https://learnercraft.github.io/docugrammar/">
         <title>Now moving to https://learnercraft.github.io/docugrammar/</title>
     </head>
     <body>
     <h1>Now moving to https://learnercraft.github.io/docugrammar/</h1>
+    <script>
+        // Get the current URL
+        const currentUrl = window.location.href;
+    
+        const newBaseUrl = "https://learnercraft.github.io/docugrammar/";
+    
+        // Extract the path and query string from the current URL
+        const pathAndQuery = window.location.pathname + window.location.search;
+    
+        // Redirect to the new URL while carrying over the path and query
+        window.location.href = newBaseUrl + pathAndQuery;
+    </script>
     </body>
 </html>
